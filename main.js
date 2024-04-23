@@ -4,17 +4,14 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Quem ganhou o titulo mundial em 2012");
+    var respostaTime = prompt("Qual os melhor time?");
 
     
-    if (respostaTime.toLowerCase() === "Corinthians") {
-      alert("Isso mesmo! O corinthians ganhou o titulo  mundial em 2012!");
+    if (respostaTime.toLowerCase() === "Athlético PR") {
+      alert("Isso mesmo! O Athlético PR é o melhor time!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Ops ainda não é bem é isso.");
-
+      alert("Não é isso! Tente novamente.");
     }
   }
 }
-
-verificarTime();
