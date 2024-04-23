@@ -1,5 +1,5 @@
 body {background-image: url(https://www.lance.com.br/galerias/wp-content/uploads/2020/03/Galeria-Corinthians-Final-do-Mundial-2012.jpeg);}
-h1 {color: brown;
+h1 {color: rgb(0, 0, 0);
 }
 #texto-animado {
     font-family: 'Arial', sans-serif;
@@ -15,7 +15,7 @@ h1 {color: brown;
 }
 
 #texto-animado {font-size: 150%;
-                color:red;
+                color:rgb(25, 0, 255);
             }
 
 @keyframes animacao-texto {
